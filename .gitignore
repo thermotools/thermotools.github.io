@@ -1,0 +1,7 @@
+_site/
+Gemfile.lock
+doxygen/
+venv/
+.idea/
+.DS_Store
+__pycache__/

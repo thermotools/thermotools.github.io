@@ -1,0 +1,12 @@
+title: ThermoTools
+description: Free, Open Source Thermodynamic and Transport property Software
+show_downloads: true
+theme: jekyll-theme-cayman
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-feed
+- jekyll-include-cache
+
+url: 'https://thermotools.github.io'
+
+includes_dir: _includes
