@@ -80,7 +80,11 @@
         }
 
         #block2 {
-            background-image: url('/assets/graphics/kingas.png'); /* Specify the path to your image */
+            background-image: url('/assets/graphics/kingas.png');
+        }
+
+        #block3 {
+            background-image: url('/assets/graphics/surfpack.png');
         }
 
         .block-description {
@@ -199,6 +203,27 @@
             <a href="https://thermotools.github.io/KineticGas/"> <button>Home</button> </a>
             <a href="https://github.com/thermotools/kineticgas"> <button>GitHub</button> </a>
             <a href="https://pypi.org/project/pykingas/"> <button>PyPI</button> </a>
+        </div>
+    </div>
+
+    <div class="block" id="block3">
+        <div class="overlay"></div>
+        <a href="https://thermotools.github.io/SurfPack/">
+            <h1 style="font-size: 3rem;" id="surfpack">SurfPack</h1>
+        </a>
+        <div class="button-container"><button onclick="toggleBlock('block3')">About</button></div>
+        <div class="block-description">
+            SurfPack is a library for computation of interfacial properties of fluids, and the properties of fluids at
+            interfaces and in confined systems. The library includes an interface to Classical Density Functional theory,
+            with implementations of several SAFT-based functionals.
+
+            Being the newest addition to ThermoTools, SurfPack is still under active development, and new features can
+            be expected to be released relatively rapidly.
+        </div>
+        <div class="button-container">
+            <a href="https://thermotools.github.io/SurfPack/"> <button>Home</button> </a>
+            <a href="https://github.com/thermotools/SurfPack"> <button>GitHub</button> </a>
+            <!--- <a href="https://pypi.org/project/pykingas/"> <button>PyPI</button> </a>
         </div>
     </div>
 
